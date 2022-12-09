@@ -15,7 +15,17 @@ namespace ExerciseStackUsingLinkedList
         }
         public void push(int item)
         {
-
+            if (top === max - 1)
+            {
+                Console.WriteLine("Stack Overflow");
+                return;
+            }
+            else
+            {
+                top++;
+                Console.Write(("Pushed element is: "));
+                dinda[top] = Console.ReadLine();
+            }
         }
     }
 }
