@@ -34,7 +34,10 @@ namespace ExerciseStackUsingLinkedList
         }
         bool empty()
         {
-
+            if (top == -1)
+                return true;
+            else
+                return false;
         }
     }
 }
