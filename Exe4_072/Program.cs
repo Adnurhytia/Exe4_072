@@ -2,5 +2,8 @@
 
 namespace ExerciseStackUsingLinkedList
 {
-    
+    class Stack
+    {
+        
+    }
 }
