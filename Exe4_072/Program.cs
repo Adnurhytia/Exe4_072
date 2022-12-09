@@ -27,5 +27,10 @@ namespace ExerciseStackUsingLinkedList
                 dinda[top] = Console.ReadLine();
             }
         }
+        public void pop()
+        {
+            Console.WriteLine("\nThe popped element is: " + dinda[top]);
+            top = top - 1;
+        }
     }
 }
