@@ -13,5 +13,9 @@ namespace ExerciseStackUsingLinkedList
             top = -1;
             max = 29;
         }
+        public void push(int item)
+        {
+
+        }
     }
 }
