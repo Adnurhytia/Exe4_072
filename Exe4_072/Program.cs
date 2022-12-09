@@ -32,5 +32,9 @@ namespace ExerciseStackUsingLinkedList
             Console.WriteLine("\nThe popped element is: " + dinda[top]);
             top = top - 1;
         }
+        bool empty()
+        {
+
+        }
     }
 }
