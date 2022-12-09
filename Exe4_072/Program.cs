@@ -60,7 +60,7 @@ namespace ExerciseStackUsingLinkedList
     {
         static void Main(string[] args)
         {
-            Stack s = new Stack();
+            Stack s = new Stack(29);
             while (true)
             {
                 Console.WriteLine();
@@ -70,7 +70,25 @@ namespace ExerciseStackUsingLinkedList
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit");
                 Console.Write("\nEnter your choice: ");
-                
+                string sInput = Console.ReadLine();
+                char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+                switch (ch)
+                {
+                    case '1':
+                        s.push(29);
+                        break;
+                    case '2':
+                        s.pop();
+                        break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return ;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
+                }
             }
         }
     }
