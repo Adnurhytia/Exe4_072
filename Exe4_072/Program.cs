@@ -39,5 +39,21 @@ namespace ExerciseStackUsingLinkedList
             else
                 return false;
         }
+        public void display()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack is Empty");
+                return ;
+
+            }
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine(dinda[i]);
+                }
+            }
+        }
     }
 }
